@@ -39,3 +39,16 @@
 //}    
 
 
+// for (let i= 75; i<=150; i=i+3) {
+//    console.log(i)
+    
+// }
+
+let numeros=[2,4,8,10,15]
+
+for (let i = 0; i < numeros.length; i+%2) {
+   console.log(numeros[i]);   
+}
+
+
+
